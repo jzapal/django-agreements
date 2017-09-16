@@ -2,13 +2,15 @@ from django.core.exceptions import ValidationError
 from django.db import models
 from django.conf import settings
 from django.utils.translation import ugettext as _
-# Create your models here.
 
 
 class AgreementToUser(models.Model):
     datetime = models.DateTimeField(auto_now_add=True, verbose_name=_('Added date'))
     user = models.ForeignKey(settings.AUTH_USER_MODEL, verbose_name=_('User'))
-    agreement = models.ForeignKey('Agreement', verbose_name=_('Agreements'))
+    agreement = models.ForeignKey('Agreement', verbose_name=_('Agreement'))
+
+    def __unicode__(self):
+        return "%s - %s" % (str(self.agreement), str(self.user))
 
 
 class Agreement(models.Model):
