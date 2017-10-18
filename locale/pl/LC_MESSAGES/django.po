@@ -25,7 +25,7 @@ msgstr "Zgody użytkowników"
 
 #: agreements/models.py:9
 msgid "Added date"
-msgstr ""
+msgstr "Data dodania"
 
 #: agreements/models.py:10
 msgid "User"
