@@ -21,7 +21,7 @@ msgstr ""
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 #: agreements/apps.py:10
 msgid "User agreements"
-msgstr ""
+msgstr "Zgody użytkowników"
 
 #: agreements/models.py:9
 msgid "Added date"
