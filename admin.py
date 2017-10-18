@@ -7,5 +7,9 @@ class AgreementToUserAdmin(admin.ModelAdmin):
     readonly_fields = ('datetime',)
 
 
-admin.site.register(Agreement)
+class AgreementAdmin(admin.ModelAdmin):
+    fields = ('title', 'text', 'document', 'targeted_users')
+
+
+admin.site.register(Agreement, AgreementAdmin)
 admin.site.register(AgreementToUser, AgreementToUserAdmin)

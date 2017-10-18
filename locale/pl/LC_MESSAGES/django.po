@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-18 19:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
+"%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
+"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+#: agreements/apps.py:10
+msgid "User agreements"
+msgstr ""
+
+#: agreements/models.py:9
+msgid "Added date"
+msgstr ""
+
+#: agreements/models.py:10
+msgid "User"
+msgstr "Użytkownik"
+
+#: agreements/models.py:11
+msgid "Agreement"
+msgstr "Zgoda"
+
+#: agreements/models.py:14
+msgid "user agreement"
+msgstr "zgoda użytkownika"
+
+#: agreements/models.py:15
+msgid "users agreements"
+msgstr "zgody użytkowniów"
+
+#: agreements/models.py:23
+msgid "Text"
+msgstr "text"
+
+#: agreements/models.py:24
+msgid "Document"
+msgstr "Dokument"
+
+#: agreements/models.py:25
+msgid "Title"
+msgstr "Tytuł"
+
+#: agreements/models.py:26
+msgid "user_agreements"
+msgstr ""
+
+#: agreements/models.py:27
+msgid "targeted users"
+msgstr "Wybrani użytkownicy"
+
+#: agreements/models.py:28
+msgid "select users which should see the agreement."
+msgstr "Wybierz użytkowników, którzy powinni zobaczyć zgody"
+
+#: agreements/models.py:31
+msgid "agreement"
+msgstr "zgoda"
+
+#: agreements/models.py:32
+msgid "agreements"
+msgstr "zgody"
+
+#: agreements/models.py:36
+msgid "The file attached to the agreement should be a text document"
+msgstr "Plik dodany do zgody powinien być plikiem tekstowym"
