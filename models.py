@@ -24,7 +24,7 @@ class Agreement(models.Model):
     document = models.FileField(blank=True, null=True, verbose_name=_('Document'))
     title = models.CharField(max_length=256, blank=True, null=True, verbose_name=_('Title'))
     targeted_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name=_('user_agreements'),
-                                            verbose_name=_('targeted users'),
+                                            verbose_name=_('targeted users'), blank=True,
                                             help_text=_('select users which should see the agreement.'))
 
     class Meta:
